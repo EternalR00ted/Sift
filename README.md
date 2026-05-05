@@ -10,7 +10,7 @@ For each incoming alert, Sift uses a frontier LLM to produce a structured, MITRE
 
 ## Status
 
-🚧 **Active development — Week 1 of ~6.** Currently in pre-alpha. End-to-end pipeline working against synthetic alerts. Real Sentinel integration scheduled for Week 3.
+**Active development — Week 1 of ~6.** Currently in pre-alpha. End-to-end pipeline working against synthetic alerts. Real Sentinel integration scheduled for Week 3.
 
 This README will evolve as the project does. Roadmap below.
 
@@ -81,12 +81,12 @@ Expected output is a structured `TriageVerdict` printed to stdout.
 
 ## Roadmap
 
-- ✅ **Week 1 — Vertical slice.** End-to-end pipeline: load synthetic alert, call Claude, print response.
-- 🚧 **Week 2 — Structured output.** Pydantic models, tool-use schemas, parsed `TriageVerdict` objects.
-- 📍 **Week 3 — Sentinel integration.** Microsoft Graph Security API client, real alert ingestion.
-- 📍 **Week 4 — Write-back.** Triage verdicts posted as incident comments for analyst review.
-- 📍 **Week 5 — Test suite + CI.** Unit and integration tests, GitHub Actions pipeline.
-- 📍 **Week 6 — Polish.** Documentation, sample alerts, README examples, basic observability hooks.
+- **Week 1 — Vertical slice.** End-to-end pipeline: load synthetic alert, call Claude, print response.
+- **Week 2 — Structured output.** Pydantic models, tool-use schemas, parsed `TriageVerdict` objects.
+- **Week 3 — Sentinel integration.** Microsoft Graph Security API client, real alert ingestion.
+- **Week 4 — Write-back.** Triage verdicts posted as incident comments for analyst review.
+- **Week 5 — Test suite + CI.** Unit and integration tests, GitHub Actions pipeline.
+- **Week 6 — Polish.** Documentation, sample alerts, README examples, basic observability hooks.
 
 ---
 
