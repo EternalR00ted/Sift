@@ -27,7 +27,7 @@ Format:
 - What's next
 -->
 
-_No entries yet._
+
 
 ## How it works
 
